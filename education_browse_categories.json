@@ -1,0 +1,39 @@
+{"data":
+	{"type":"carousel",
+		"templates":
+		[
+			{"title":"Academics",
+				"image_url":"https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-Academics.jpg",
+				"subtitle":"Curriculum, Course work, Faculty and more","buttons":
+				[
+					{
+						"title":"Learn More"
+						,"type":"postback","payload":
+						"flow_EE471FC4D4B84A5BA62AF7A1A7699F2D"
+					}
+				]},
+				{
+					"title":"Admissions",
+					"image_url":"https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-Admissions.jpg",
+					"subtitle":"Programs, Fee Structure, Scholarships and more",
+					"buttons":[
+						{
+						"title":"Learn More",
+					"type":"postback",
+				"payload":"flow_FE345B6233A24CFBB36EF9E9002A25C8"
+			}
+		]
+				},
+					{
+						"title":"Others",
+						"image_url":"https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-School-Life.jpg",
+						"subtitle":"Activities, Clubs, Sports etc.",
+						"buttons":[
+							{
+							"title":"Learn More",
+						"type":"postback",
+					"payload":"flow_288D422A63D548F7A8C0EA542437A92A"
+				}]
+					}]
+	}
+}
